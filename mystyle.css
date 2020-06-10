@@ -1,0 +1,58 @@
+html{
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+nav{
+	width:80%;
+	font-size:30px;
+	position:fixed;
+	background-color:white;
+	outline-width:1px;
+	outline-style:solid;
+}
+body{
+	
+}
+section{
+	padding-top:5%;
+}
+th{
+	background-color:pink;
+	font-size:20;
+	color:black;
+}
+td{
+	font-size:20;
+	color:grey;
+}
+td:hover{
+	color:pink;
+	text-shadow:0px,0px,5px,pink;
+}
+footer{
+	clear:both;
+	
+}
+
+#splashpic{
+	font-size:80px;
+	color:white;
+	clear:both;
+	text-align:center;
+	margin:auto;
+	padding:50px;
+	background-image:url('temp.jpg');
+	background-size:cover;
+}
+#left{
+	float:left;
+}
+#right{float:right;}
+#words{
+font-size:24px;}
+#putin input{
+	border:1px solid blue;
+	border-radius:5px;
+	float:left;
+}
