@@ -1,21 +1,32 @@
 html{
-	margin-left:10%;
-	margin-right:10%;
+	background-color:rgb(255, 240, 227);
 	
 }
 nav{
+	padding-left:5%;
+	padding-right:5%;
+	font-family:Helvetica;
 	width:80%;
 	font-size:30px;
+	color:white;
 	position:fixed;
-	background-color:white;
-	outline-width:1px;
-	outline-style:solid;
+}
+nav a{
+	color:white;
+}
+nav a:hover{
+	color:pink;
+}
+nav div#left{
+	background-color:rgb(196, 93, 37);
 }
 body{
 	
 }
 section{
 	padding-top:5%;
+	margin-left:5%;
+	margin-right:5%;
 }
 th{
 	background-color:pink;
@@ -28,18 +39,20 @@ td{
 }
 td:hover{
 	color:pink;
-	text-shadow:0px,0px,5px,pink;
 }
 footer{
 	clear:both;
-	
+	height:200px;
+	margin-left:5%;
+	margin-right:5%;
 }
-
 #splashpic{
 	font-size:80px;
+	font-family:Luminari;
+	text-shadow:3px 3px 0px pink,3px -3px 0px pink,-3px 3px 0px pink,-3px -3px 0px pink;
 	color:white;
 	clear:both;
-	text-align:center;
+	text-align:left;
 	margin:auto;
 	padding:50px;
 	background-image:url('temp.jpg');
@@ -55,4 +68,9 @@ font-size:24px;}
 	border:1px solid blue;
 	border-radius:5px;
 	float:left;
+}
+#feetlogo{
+	font-size:50px;
+	text-shadow:2px 2px 0px pink,2px -2px 0px pink,-2px 2px 0px pink,-2px -2px 0px pink;
+	color:white;
 }
