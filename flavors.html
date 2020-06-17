@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><link rel="stylesheet" href="mystyle.css"></head>
+<script src="ManuControl.js"></script>
 <body>
 <header>
 </header>
@@ -28,16 +29,20 @@ diam nonumy eirmod tempor invidunt ut labore et dolore
 <!--second section, three column table-->
 <section>
 <h1>Look at Our Manu</h1>
-<table width="100%">
+<img height="300px" id="manu_img" style="float:left">
+<div id="manu_des" style="padding:2%">hellp</div>
+<table width="100%" style="font-size:24px">
 <tr>
 	<th>Cakes</th>
 	<th>Ice Cream</th>
 	<th>Cookies</th>
 </tr>
+<!--function constructor:
+Item:Name，Price,Calores,picture('yourimage.jpg'),description,-->
 <tr>
-	<td>$4 Carrot Cake</td>
-	<td>Bowl</td>
-	<td>chocolate cookie</td>
+	<td onclick="showItem('Carrot Cake',4,200,'cake_carrot.jpg','this is a good carrot cake')">$4 Carrot Cake</td>
+	<td onclick="showItem('Icecream Bowl',6,'400-600','ice_bowl.jpg','enjoy our classic bowl in the summer days')">Bowl</td>
+	<td onclick="showItem('Chocolate Cookie',2,'300','cookie_choco.jpg','the classic chocolate cookie is going to make your day')">chocolate cookie</td>
 </tr>
 <tr>
 	<td>$3 Red Velvet Cake</td>
