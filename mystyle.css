@@ -6,10 +6,11 @@ html{
 nav{
 	padding-left:0%;
 	padding-right:0%;
-	font-family:Helvetica;
+	font-family:Candara;
 	width:90%;
 	font-size:40px;
-	color:rgba(255,255,255,0.8);
+	color:rgba(255,255,255,1);
+	text-shadow:-2px -2px 1px black,2px 2px 1px black;
 	position:fixed;
 	
 }
@@ -51,6 +52,7 @@ td:hover{
 	color:pink;
 }
 footer{
+	font-family:Candara;
 	clear:both;
 	height:200px;
 	margin-left:5%;
@@ -58,7 +60,7 @@ footer{
 }
 #splashpic{
 	font-size:60px;
-	font-family:Luminari;
+	font-family:Candara;
 	text-shadow:3px 3px 9px pink,3px -3px 9px pink,-3px 3px 9px pink,-3px -3px 9px pink;
 	color:white;
 	clear:both;
@@ -81,6 +83,7 @@ font-size:24px;}
 }
 #feetlogo{
 	font-size:50px;
+	
 	text-shadow:2px 2px 6px pink,2px -2px 6px pink,-2px 2px 6px pink,-2px -2px 6px pink;
 	color:white;
 }
