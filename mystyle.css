@@ -1,27 +1,37 @@
 html{
 	background-color:rgb(255, 240, 227);
+	/*background-image:url("texture_paper.jpg");*/
 	
 }
 nav{
-	padding-left:5%;
-	padding-right:5%;
+	padding-left:0%;
+	padding-right:0%;
 	font-family:Helvetica;
-	width:80%;
-	font-size:30px;
-	color:white;
+	width:90%;
+	font-size:40px;
+	color:rgba(255,255,255,0.8);
 	position:fixed;
+	
 }
 nav a{
-	color:white;
+	color:rgba(255,255,255,0.8);
 }
 nav a:hover{
-	color:pink;
+	color:rgba(255,255,255,0.8);
+	text-shadow:2px 2px 3px pink,2px -2px 3px pink,-2px 2px 3px pink,-2px -2px 3px pink;
 }
 nav div#left{
-	background-color:rgb(196, 93, 37);
+	padding-left:5%;
+	height:60px;
+	width:80%;
+	background-image:url("texture_wood.jpg");
+	outline-style:ridge;
+	outline-width:10px;
+	outline-color:rgba(0,0,0,0.5);
+	
 }
 body{
-	
+	margin:0px;
 }
 section{
 	padding-top:5%;
@@ -49,7 +59,7 @@ footer{
 #splashpic{
 	font-size:60px;
 	font-family:Luminari;
-	text-shadow:3px 3px 0px pink,3px -3px 0px pink,-3px 3px 0px pink,-3px -3px 0px pink;
+	text-shadow:3px 3px 9px pink,3px -3px 9px pink,-3px 3px 9px pink,-3px -3px 9px pink;
 	color:white;
 	clear:both;
 	text-align:left;
@@ -71,6 +81,6 @@ font-size:24px;}
 }
 #feetlogo{
 	font-size:50px;
-	text-shadow:2px 2px 0px pink,2px -2px 0px pink,-2px 2px 0px pink,-2px -2px 0px pink;
+	text-shadow:2px 2px 6px pink,2px -2px 6px pink,-2px 2px 6px pink,-2px -2px 6px pink;
 	color:white;
 }
