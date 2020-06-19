@@ -13,6 +13,7 @@ function lookHere(){
 	var i=0;
 	for (i=0;i<items.length;i++){
 	items[i].style.width="100%";
+	items[i].style.textAlign="center";
 		}
 	document.getElementById("manu_des").style.width="95%";
 	//document.getElementById("manu_des").style.clear="both";
