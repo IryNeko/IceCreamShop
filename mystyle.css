@@ -15,10 +15,11 @@ nav{
 	
 }
 nav a{
-	color:rgba(255,255,255,0.8);
+	color:rgba(255,255,255,0.9);
+	text-decoration:none;
 }
 nav a:hover{
-	color:rgba(255,255,255,0.8);
+	color:rgba(255,255,255,0.9);
 	text-shadow:2px 2px 3px pink,2px -2px 3px pink,-2px 2px 3px pink,-2px -2px 3px pink;
 }
 nav div#left{
@@ -27,7 +28,7 @@ nav div#left{
 	width:80%;
 	background-image:url("texture_wood.jpg");
 	outline-style:ridge;
-	outline-width:10px;
+	outline-width:5px;
 	outline-color:rgba(0,0,0,0.5);
 	
 }
@@ -39,6 +40,7 @@ section{
 	margin-left:5%;
 	margin-right:5%;
 }
+
 th{
 	background-color:pink;
 	font-size:20;
@@ -69,6 +71,18 @@ footer{
 	padding:50px;
 	background-image:url('temp.jpg');
 	background-size:cover;
+}
+#board{
+	font-family:Candara;
+	font-size:34px;
+	color:rgba(255,255,255,0.9);
+	text-shadow:-3px -3px 1px black,3px 3px 1px black;
+	outline-color:rgba(0,0,0,0.5);
+	outline-width:5px;
+	outline-style:solid;
+	background-image:url("texture_wood.jpg");
+	padding:9px;
+	width:25%;
 }
 #left{
 	float:left;
