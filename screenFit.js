@@ -3,8 +3,11 @@
 function lookHere(){
 	if (screen.width < screen.height){
 	//alert(screen.width);
+	var items=document.getElementsByClassName("board");
+	for (var i=0;i<item.length;i++){
+		items[i].style.width="100%";
+	}
 	
-	document.querySelectorAll('.board').style.width="100%";
 	
 	}
 }
