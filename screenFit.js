@@ -7,11 +7,14 @@ function lookHere(){
 	//for (var i=0;i<item.length;i++){
 	//	items[i].style.width="100%";
 	//}
-	alert("true");
+	//alert("true");
+	//change the board tag to full size on mobile;
 	var items=document.getElementsByClassName("board");
 	var i=0;
 	for (i=0;i<items.length;i++){
 	items[i].style.width="100%";
 		}
+	document.getElementById("manu_des").style.width="100%"
+	document.getElementById("manu_img_frame").style.width="100%"
 	}
 }
