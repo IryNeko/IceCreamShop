@@ -14,7 +14,9 @@ function lookHere(){
 	for (i=0;i<items.length;i++){
 	items[i].style.width="100%";
 		}
-	document.getElementById("manu_des").style.width="100%"
-	document.getElementById("manu_img_frame").style.width="100%"
+	document.getElementById("manu_des").style.width="95%";
+	//document.getElementById("manu_des").style.clear="both";
+	document.getElementById("manu_img_frame").style.width="100%";
+	//document.getElementById("manu_img_frame").style.clear="both";
 	}
 }
