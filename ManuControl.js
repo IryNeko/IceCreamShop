@@ -13,7 +13,7 @@ function showItem(name,price,cal,pic,des){
 
 function addToCart(){
 	//alert(item_name+"and"+item_price)
-	var num+=document.getElementById("order_number").value;
+	var num=document.getElementById("order_number").value;
 	//alert("value get="+num);
 	document.cookie=item_name+"="+num+";";
 	var x=document.cookie;
