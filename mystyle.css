@@ -94,10 +94,12 @@ footer{
 #right{float:right;}
 #words{
 font-size:24px;}
-#putin input{
+.putin input{
 	border:1px solid blue;
 	border-radius:5px;
-	float:left;
+	
+	font-size:16px;
+	line-height:1;
 }
 #feetlogo{
 	font-size:50px;
