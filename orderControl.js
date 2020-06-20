@@ -9,7 +9,7 @@ function parseCookie(){
 		cartList+=cutCookies[i]+"<br>";
 	//}
 	//display the list on the innerHTML
-	cartlist=cartList.replace("="," : ")
+	cartList=cartList.replace("="," : ")
 	document.getElementById("orders").innerHTML=cartList;
 	
 }
