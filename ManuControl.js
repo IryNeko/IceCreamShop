@@ -14,10 +14,10 @@ function showItem(name,price,cal,pic,des){
 function addToCart(){
 	//alert(item_name+"and"+item_price)
 	var num=document.getElementById("order_number").value;
-	if(num>-1){
+	if(num>-1&&typeof item_name!=="undefined"){
 		document.cookie=item_name+"="+num+";";
 		var x=document.cookie;
-		alert(x);
+		//alert(x);
 	}
 	//alert("value get="+num);
 	
