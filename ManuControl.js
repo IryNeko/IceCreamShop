@@ -8,19 +8,19 @@ function showItem(name,price,cal,pic,des){
 	document.getElementById("manu_img").src=pic;
 	item_name=name;
 	item_price=price;
-	alert(item_name+"and"+item_price)
+	//alert(item_name+"and"+item_price)
 }
 
 function addToCart(){
 	//alert(item_name+"and"+item_price)
 	var num=document.getElementById("order_number").value;
-	if (value==0){
-		return;
+	if (!value==0){
+		document.cookie=item_name+"="+num+";";
+		var x=document.cookie;
+		alert(x);
 	}
 	//alert("value get="+num);
-	document.cookie=item_name+"="+num+";";
-	var x=document.cookie;
-	alert(x);
+	
 }
 
 //function itemPos(){
