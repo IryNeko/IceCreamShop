@@ -7,7 +7,10 @@ function lookHere(){
 	//alert(items2.length);
 	for (i=0;i<items2.length;i++){
 		items2[i].style.width="95%";
-		items2[i].style.padding="30px 30px";
+		items2[i].style.padding="20px 20px";
+		items2[i].type="text";
+		items2[i].style.fontSize="24px";
+		items2[i].style.textAlign="center";
 	}
 	//alert(screen.width);
 	//var items=document.getElementsByClassName("board");
