@@ -1,14 +1,14 @@
 //this is to detect the screen width and height
 //if the height>width switch to full bar size
 function lookHere(){
-	if (screen.width < screen.height){
+	if (screen.width > screen.height){
 	var items2=document.getElementsByTagName("input");
 	var i=0;
 	//alert(items2.length);
 	for (i=0;i<items2.length;i++){
 		items2[i].style.width="95%";
 		items2[i].style.padding="20px 20px";
-		items2[i].type="text";
+		//items2[i].type="text";
 		items2[i].style.fontSize="24px";
 		items2[i].style.textAlign="center";
 	}
