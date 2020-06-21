@@ -2,6 +2,13 @@
 //if the height>width switch to full bar size
 function lookHere(){
 	if (screen.width < screen.height){
+	var items2=document.getElementsByTagName("input");
+	var i=0;
+	//alert(items2.length);
+	for (i=0;i<items2.length;i++){
+		items2[i].style.width="95%";
+		items2[i].style.padding="30px 30px";
+	}
 	//alert(screen.width);
 	//var items=document.getElementsByClassName("board");
 	//for (var i=0;i<item.length;i++){
@@ -19,5 +26,7 @@ function lookHere(){
 	//document.getElementById("manu_des").style.clear="both";
 	document.getElementById("manu_img_frame").style.width="100%";
 	//document.getElementById("manu_img_frame").style.clear="both";
+	
+	
 	}
 }
