@@ -1,6 +1,7 @@
 html{
-	background-color:rgb(255, 240, 227);
-	/*background-image:url("texture_paper.jpg");*/
+	/*background-color:rgb(255, 240, 227);*/
+	background-image:url("texture_marble.jpg");
+	background-repeat:repeat;
 	
 }
 nav{
@@ -27,9 +28,7 @@ nav div#left{
 	height:60px;
 	width:80%;
 	background-image:url("texture_wood.jpg");
-	outline-style:ridge;
-	outline-width:5px;
-	outline-color:rgba(0,0,0,0.5);
+	box-shadow: 0 0 4px 4px grey;
 	
 }
 body{
@@ -71,15 +70,14 @@ footer{
 	padding:50px;
 	background-image:url('temp.jpg');
 	background-size:cover;
+	box-shadow: 0 0 4px 4px grey
 }
 .board{
 	font-family:Candara;
 	font-size:34px;
 	color:rgba(255,255,255,0.9);
 	text-shadow:-3px -3px 1px black,3px 3px 1px black;
-	outline-color:rgba(0,0,0,0.5);
-	outline-width:5px;
-	outline-style:solid;
+	box-shadow: 0 0 4px 4px grey;
 	background-image:url("texture_wood.jpg");
 	padding:9px;
 	width:25%;
