@@ -2,6 +2,7 @@ html{
 	/*background-color:rgb(255, 240, 227);*/
 	background-image:url("texture_marble.jpg");
 	background-repeat:repeat;
+	font-family:Candara
 	
 }
 nav{
@@ -57,7 +58,7 @@ footer{
 	clear:both;
 	height:200px;
 	margin-left:5%;
-	margin-right:5%;
+	margin-right:6.5%;
 }
 #splashpic{
 	font-size:60px;
